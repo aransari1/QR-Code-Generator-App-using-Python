@@ -1,5 +1,5 @@
 from tkinter import filedialog,messagebox,colorchooser
-from PIL import ImageTk,ImageOps,Image
+from PIL import ImageTk,ImageOps
 from colour import Color
 from tkinter import *
 import qrcode
@@ -10,7 +10,9 @@ def check_color(picked):
     """This function is used for checking if the user input is colour or not.
 
     check_color:
-    check_color(picked): first it replaces the spaces with empty space in the given input.\nAfter that checks if the input is color or not with Color(picked) method.\n The try and except block are used for error correction.
+    check_color(picked): first it replaces the spaces with empty space in the given input.
+    After that checks if the input is color or not with Color(picked) method.
+    The try and except block are used for error correction.
 
     Returns:
         True: If the input is color.
