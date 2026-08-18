@@ -57,7 +57,7 @@ main_window = Tk()
 main_window.geometry("400x500")
 main_window.title("QR Code Generator")
 main_window.configure(bg="#F4F1DE")
-main_window.iconbitmap("C:\QR Generator Project\Icons\Simple.ico")
+main_window.iconbitmap("QR Generator Project\Icons\Simple.ico")
 main_window.resizable(width=False,height=False)
 
 # borderwidth or bd="size of border, relief="flat/raised/sunken/ridge/solid/groove"
@@ -141,7 +141,7 @@ Save_Button = Button(main_window,
                      command=Save_QR)
 Save_Button.place(x=280,y=190)
 
-Wheel_img = PhotoImage(file="C:\QR Generator Project\Icons\Wheel25.png")
+Wheel_img = PhotoImage(file="QR Generator Project\Icons\Wheel25.png")
 
 Wheel_Label = Label(image=Wheel_img)
 
